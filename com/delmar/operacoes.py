@@ -5,7 +5,7 @@ class Operacoes():
             val = val + v
         return val
 
-    def subtracao subtracao(self, valores):
+    def subtracao (self, valores):
         val = 0
         for v in valores:
             val = val - v
