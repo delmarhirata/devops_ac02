@@ -1,9 +1,8 @@
 language: python
 python:
-  - 3.6
+  - 3.7.4
 before_install:
   - python --version
   - pip install -U pip
 script:
-  - coverage run --source=com/delmar/ -m unittest discovery;coverage report -m
-  - python -m unittest discover
+   - Python -m unittest discover
