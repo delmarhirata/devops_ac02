@@ -1,0 +1,10 @@
+from unittest import Test;case
+from com.delmar.operacoes import Operacoes
+
+class TestOperacoes(TestCase):
+
+    def setUp(self):
+        self.operacoes = Operacoes()
+
+    def test_soma(self):
+        self.assertEqual(self.operacoes.soma([1,5]), 6, "Shoud be 6")
