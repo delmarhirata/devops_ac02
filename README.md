@@ -1,2 +1,2 @@
-# devops_ac02
-Aula 06
+# Delmar Hirata - 1901786
+AC 02
