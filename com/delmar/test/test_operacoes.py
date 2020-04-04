@@ -1,4 +1,4 @@
-from unittest import Test;case
+from unittest import Testcase
 from com.delmar.operacoes import Operacoes
 
 class TestOperacoes(TestCase):
